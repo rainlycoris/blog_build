@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: GuDianMingChaoTi;
+  font-weight: bold;
+  src: url('./assets/font/GuDianMingChaoTi.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&family=Noto+Serif+SC&display=swap');
+@import url('https://fonts.font.im/css2?family=Noto+Serif+SC&family=Noto+Serif+SC&display=swap');
+
+@layer components {
+  :root {
+    --white: rgba(252, 250, 242, 1);
+    --white-light: rgba(252, 250, 242, 0.9);
+    --white-article: rgba(255, 255, 251, 0.1);
+    --black: rgb(46, 92, 110);
+    --black-light: rgba(46, 92, 110, 0.9);
+    --black-article: rgba(173, 161, 66, 0.09);
+    --theme-color: #F4A7B9;
+    --font-family:  'Fira Mono', 'Noto Serif SC', -apple-system, sans-serif, monospace;
+  }
+  .dark {
+    --font-color: var(--white);
+    --background-color: var(--black);
+    --background-mask-color: var(--black-light);
+    --mask-color: var(--white-article);
+  }
+
+  .light {
+    --font-color: var(--black);
+    --background-color: var(--white);
+    --background-mask-color: var(--white-light);
+    --mask-color: var(--black-article);
+  }
+
+  body {
+    font-family: var(--font-family);
+  }
+
+  code {
+    font-family: var(--font-family)!important;
+  }
+
+  body {
+    color: var(--font-color);
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+
+  /* custom scrollBar */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: var(--theme-color);
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  /* custom selection */
+  ::selection {
+    color: var(--white);
+    background-color: var(--theme-color);
+  }
+}
