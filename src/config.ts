@@ -12,7 +12,7 @@ const config = {
     github: '//github.com/rainlycoris/',
     twitter: '//twitter.com/yskmirai',
     telegram: '',
-    email: 'qq3401683092@outlook.com',
+    email: '//qq3401683092@outlook.com',
     music: '',
     blog: '//www.luogu.com.cn/blog/ldl/#',
   },
