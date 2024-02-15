@@ -36,13 +36,13 @@ const Friend: React.FC<FriendProps> = () => {
           <div className={clsx(styles.info, 'mx-4 mb-4')}>
             <p>欢迎互相认识一下，嗯。</p>
             <p>★ 夜雨</p>
-            <p>★ Motto：夜空是否全然知晓？</p>
+            <p>★ Motto：夜空はなんでも知ってるの？</p>
             <p>★ URL：https://rainlycoris.github.io/</p>
             <p>
               ★ Avatar：
               <a
                 className="link"
-                href="https://img.atcoder.jp/icons/9538f997dec458db3071904afecde62f.png"
+                href="https://img.atcoder.jp/icons/a91b5a468b1a4c9fb3fe9fa4a1b06901.png"
                 target="_blank"
                 rel="noopener noreferrer"
               >

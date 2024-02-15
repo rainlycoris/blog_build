@@ -10,9 +10,9 @@ const config = {
   },
   contact: {
     github: '//github.com/rainlycoris/',
-    twitter: '//twitter.com/yskmirai',
+    twitter: '',
     telegram: '',
-    email: '//qq3401683092@outlook.com',
+    email: 'mailto://qq3401683092@outlook.com',
     music: '',
     blog: '//www.luogu.com.cn/blog/ldl/#',
   },
